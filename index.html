@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <header id="headerstart">
+        <a href="index.html" class="logoa">
+            <picture>
+                <source media="(max-width: 468px)" srcset="Images/logoMobile.svg">
+                <source media="(min-width: 469px)" srcset="Images/logo.svg">
+                <!-- Fallback image -->
+                <img src="Images/logo.svg" alt="logo Food Recipes" class="logo">
+
+            </picture>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Startsida</a></li>
+                <li><a href="recipes.html">Recept</a></li>
+                <li><a href="foodhelper.html">Maträttshjälparen</a></li>
+                <li><a href="ingredients.html">Ingredienser</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <h1 class="center">Välkommen till Food Recipes!</h1>
+        </div>
+        <div id="about">
+            <p>Food Recipes är en innovativ webbplats dedikerad till matälskare över hela världen. Vår plattform erbjuder en unik tjänst där användare kan utforska och upptäcka en mängd olika recept från olika kulturer och kök. Med ett användarvänligt gränssnitt
+                tillåter Food Recipes besökare att söka efter recept baserat på specifika ingredienser de redan har hemma, vilket gör matlagningen både enklare och mer tillgänglig.</p>
+            <p>Vi förstår att varje måltid är en möjlighet att samla familjer och vänner, därför strävar vi efter att erbjuda måltidslösningar som passar alla tillfällen och smaker. Vare sig du letar efter en snabb vardagsmiddag eller en festlig bjudning,
+                har Food Recipes något att erbjuda. Använd vår funktion för att välja ingredienser, och låt vår webbplats ge dig anpassade matförslag som inte bara inspirerar utan också förvandlar din matlagning.</p>
+
+            <p class="center">Välkommen till Food Recipes – där din kulinariska resa börjar.</p>
+        </div>
+        <h2 class="center mt">Receptförslag</h2>
+        <section class="recipes start">
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Food Recipes | Copyright &copy; 2024</p>
+
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

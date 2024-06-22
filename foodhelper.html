@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logoa"><img src="Images/logo.svg" alt="logo Food Recipes" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="recipes.html">Recept</a></li>
+                <li><a href="foodhelper.html" class="active">Maträttshjälparen</a></li>
+                <li><a href="ingredients.html">Ingredienser</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="center h1">Välj vilket land, kategori eller ingrediens som du vill äta</h1>
+        <form id="search-form">
+            <label for="country-select">Land:</label>
+            <select id="country-select">
+                <option value="">Välj ett land</option>
+                <!-- Countries will be populated here -->
+            </select>
+
+            <label for="category-select">Kategori:</label>
+            <select id="category-select">
+                <option value="">Välj en kategori</option>
+                <!-- Categories will be populated here -->
+            </select>
+
+            <label for="ingredient-input">Ingrediens:</label>
+            <input type="text" id="ingredient-input" placeholder="Ange ingrediens">
+
+            <button type="submit">Sök måltider</button>
+        </form>
+
+        <div id="meal-results" class="recipes">
+            <!-- Results will be displayed here -->
+        </div>
+
+    </main>
+    <footer>
+        <hr>
+        <p>Food Recipes | Copyright &copy; 2024</p>
+
+    </footer>
+    <script type="module" src="js/foodSearch.js"></script>
+</body>
+
+</html>
