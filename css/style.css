@@ -177,6 +177,7 @@ nav ul a:hover {
 .card h3,
 .ingredientCard h3 {
     margin: 0;
+    margin-inline: auto;
 }
 
 .cardImg,
