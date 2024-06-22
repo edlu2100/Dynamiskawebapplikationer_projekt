@@ -30,7 +30,7 @@ function displayIngredients(ingredients) {
             <div class="ingredientCard">
                 <a href="ingredient-details.html?ingredient=${encodeURIComponent(ingredient.strIngredient)}">
                     <img src="https://www.themealdb.com/images/ingredients/${encodeURIComponent(ingredient.strIngredient)}.png" alt="Image of ${ingredient.strIngredient}">
-                    <p>${ingredient.strIngredient}</p>
+                    <h2>${ingredient.strIngredient}</h2>
                 </a>
             </div>
         `;

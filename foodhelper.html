@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Recipes - Maträttshjälparen</title>
+    <meta name="description" content="Explore Food Recipes' Maträttshjälparen to discover meals by country, category, or ingredients. Find the perfect recipes for any occasion and tailor your culinary experience to match your taste and available ingredients.">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
@@ -22,18 +24,18 @@
         </nav>
     </header>
     <main>
-        <h1 class="center h1">Välj vilket land, kategori eller ingrediens som du vill äta</h1>
+        <h1 class="center h1">Maträttshjälparen</h1>
+
+        <h2 class="center h1">Välj vilket land, kategori eller ingrediens som du vill äta</h2>
         <form id="search-form">
             <label for="country-select">Land:</label>
             <select id="country-select">
                 <option value="">Välj ett land</option>
-                <!-- Countries will be populated here -->
             </select>
 
             <label for="category-select">Kategori:</label>
             <select id="category-select">
                 <option value="">Välj en kategori</option>
-                <!-- Categories will be populated here -->
             </select>
 
             <label for="ingredient-input">Ingrediens:</label>
@@ -43,7 +45,6 @@
         </form>
 
         <div id="meal-results" class="recipes">
-            <!-- Results will be displayed here -->
         </div>
 
     </main>

@@ -34,7 +34,7 @@ async function fetchRecipeDetails() {
 // Display the recipe details in the webpage
 function displayRecipeDetails(recipe) {
     const container = document.querySelector('.recipe-details-container');
-    let ingredientsHTML = '<h3>Ingredients</h3><ul>'; // Start an unordered list for ingredients
+    let ingredientsHTML = '<h2>Ingredients</h2><ul>'; // Start an unordered list for ingredients
 
     // Loop through possible ingredients and measurements (max 30 ingredients)
     for (let i = 1; i <= 30; i++) {
@@ -52,8 +52,8 @@ function displayRecipeDetails(recipe) {
     // Handle YouTube video
     const youtubeId = recipe.strYoutube.split('=')[1]; // Extract YouTube video ID from the URL
     const youtubeEmbedHTML = `
-        <h3>Video Recipe</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Video Recipe</h2>
+        <iframe title="instructions" width="560" height="315" src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `;
 
     // Set the innerHTML of the container with all recipe details

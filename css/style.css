@@ -180,6 +180,10 @@ nav ul a:hover {
     text-align: center;
 }
 
+.ingredientCard h2 {
+    font-size: 1.1em;
+}
+
 .cardImg,
 .ingredientCard img {
     display: block;
