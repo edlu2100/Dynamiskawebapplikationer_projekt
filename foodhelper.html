@@ -25,33 +25,13 @@
     </header>
     <main>
         <h1 class="center h1">Maträttshjälparen</h1>
-
         <h2 class="center h1">Välj vilket land, kategori eller ingrediens som du vill äta</h2>
-        <form id="search-form">
-            <label for="country-select">Land:</label>
-            <select id="country-select">
-                <option value="">Välj ett land</option>
-            </select>
-
-            <label for="category-select">Kategori:</label>
-            <select id="category-select">
-                <option value="">Välj en kategori</option>
-            </select>
-
-            <label for="ingredient-input">Ingrediens:</label>
-            <input type="text" id="ingredient-input" placeholder="Ange ingrediens">
-
-            <button type="submit">Sök måltider</button>
-        </form>
-
-        <div id="meal-results" class="recipes">
-        </div>
-
+        <form id="search-form"> <label for="country-select">Land:</label> <select id="country-select"> <option value="">Välj ett land</option> </select> <label for="category-select">Kategori:</label> <select id="category-select"> <option value="">Välj en kategori</option> </select>            <label for="ingredient-input">Ingrediens:</label> <input type="text" id="ingredient-input" placeholder="Ange ingrediens"> <button type="submit">Sök måltider</button> </form>
+        <div id="meal-results" class="recipes"> </div>
     </main>
     <footer>
         <hr>
         <p>Food Recipes | Copyright &copy; 2024</p>
-
     </footer>
     <script type="module" src="js/foodSearch.js"></script>
 </body>
